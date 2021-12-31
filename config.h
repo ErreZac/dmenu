@@ -11,8 +11,8 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#f8f8f2", "#282a36" },
 	[SchemeSel] = { "#f8f8f2", "#6272a4" },
-	[SchemeSelHighlight] = { "#ffc978", "#005577" },
-	[SchemeNormHighlight] = { "#ffc978", "#222222" },
+	[SchemeSelHighlight] = { "#ff79c6", "#6272a4" },
+	[SchemeNormHighlight] = { "#ff79c6", "#444756" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeOutHighlight] = { "#ffc978", "#00ffff" },
 };
@@ -28,4 +28,4 @@ static unsigned int columns    = 5;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 5;
+static const unsigned int border_width = 2;
