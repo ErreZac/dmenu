@@ -15,6 +15,7 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeNormHighlight] = { "#ff79c6", "#444756" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeOutHighlight] = { "#ffc978", "#00ffff" },
+	[SchemeMid] = { "#bd93f9", "#444756" },
 };
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
