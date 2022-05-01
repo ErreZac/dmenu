@@ -12,12 +12,12 @@ static const char *prompt      = NULL;      /* -p  option; prompt to the left of
 static const char *colors[SchemeLast][2] = {
 	                     /*     fg         bg       */
 	[SchemeNorm]          = { "#a89984", "#282828" }, // { "#ebdbb2", "#282828" }, // { "#D8DEE9", "#1e222a" }, // 2E3440
-	[SchemeSel]           = { "#fbf1c7", "#83a598" }, //C9CBFF { "#1d2021", "#fabd2f" }, // { "#2E3440", "#88C0D0" },
+	[SchemeSel]           = { "#fbf1c7", "#458588" }, //C9CBFF { "#1d2021", "#fabd2f" }, // { "#2E3440", "#88C0D0" },
 	[SchemeSelHighlight]  = { "#1d2021", "#fabd2f" }, // { "#1d2021", "#458588" }, // { "#ECEFF4", "#434C5E" },
-	[SchemeNormHighlight] = { "#1d2021", "#83a598" }, // { "#1d2021", "#83a598" }, // { "#2E3440", "#5E81AC" },
+	[SchemeNormHighlight] = { "#1d2021", "#d79921" }, // { "#1d2021", "#83a598" }, // { "#2E3440", "#5E81AC" },
 	[SchemeOut]           = { "#000000", "#00ffff" }, // { "#000000", "#00ffff" },
 	[SchemeOutHighlight]  = { "#000000", "#00ffff" }, // { "#88C0D0", "#00ffff" },
-	[SchemeMid]           = { "#fbf1c7", "#928374" }, // { "#ebdbb2", "#32302f" }, // { "#E5E9F0", "#3B4252" },
+	[SchemeMid]           = { "#fbf1c7", "#83a598" }, // { "#ebdbb2", "#32302f" }, // { "#E5E9F0", "#3B4252" },
 };
 
 /* -l and -g options; controls number of lines and columns in grid if > 0 */
