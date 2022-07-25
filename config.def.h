@@ -11,7 +11,7 @@ static const char *fonts[] = {
 };
 
 /*  theme */
-#include "colorthemes/catppuccin.h"
+#include "colorthemes/everblush.h"
 
 
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
