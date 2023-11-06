@@ -11,7 +11,7 @@ static const char *fonts[] = {
 };
 
 /*  theme */
-#include "colorthemes/rosepine.h"
+#include "colorthemes/rosepine_dawn.h"
 // #include "colorthemes/catppuccin.h"
 
 
